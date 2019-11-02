@@ -7,6 +7,7 @@ public class UserDao {
 	
 	public int create(User user) {
 		int id = IDGenerator.generateId();
+		// save user object to database
 		return id;
 	}
 
